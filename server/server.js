@@ -20,7 +20,7 @@ if (!process.env.GOOGLE_API_KEY) {
 // FIXED #1: Consistently use OPENAI_API_KEY to initialize the client
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
-const app = express();
+const app = express(); 
 app.use(cors());
 app.use(express.json());
 
