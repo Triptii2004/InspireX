@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Environment Variables (IMPORTANT: KEEPS YOUR API KEYS SECRET)
+.env
+/client/.env
+/server/.env
+
+# Build folders
+/dist
+/client/dist
+/server/dist
